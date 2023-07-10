@@ -1,0 +1,46 @@
+body {
+  font-family: arial;
+  height: 100vh;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+.calculator-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.button {
+  font-family: arial;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(51, 49, 49);
+}
+.operator-button {
+  background-color: goldenrod;
+}
+.clear-button {
+  font-family: arial;
+  font-size: 15px;
+  background-color: goldenrod;
+  color: white;
+  margin-left: 60px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+.js-clear-button-2 {
+  background-color: lightgreen;
+
+}
+.display {
+  font-size: 40px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
